@@ -5,12 +5,12 @@ import {
     GetAddressRequest, RemoveAddressRequest,
     toAddressResponse,
     UpdateAddressRequest
-} from "../model/address-model.js";
-import {Validation} from "../validation/validation.js";
-import {AddressValidation} from "../validation/address-validation.js";
-import {ContactService} from "./contact-service.js";
-import {prismaClient} from "../application/database.js";
-import {ResponseError} from "../error/response-error.js";
+} from "../model/address-model";
+import {Validation} from "../validation/validation";
+import {AddressValidation} from "../validation/address-validation";
+import {ContactService} from "./contact-service";
+import {prismaClient} from "../application/database";
+import {ResponseError} from "../error/response-error";
 
 export class AddressService {
 

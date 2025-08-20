@@ -4,14 +4,14 @@ import {
     SearchContactRequest,
     toContactResponse,
     UpdateContactRequest
-} from "../model/contact-model.js";
-import {Validation} from "../validation/validation.js";
-import {ContactValidation} from "../validation/contact-validation.js";
+} from "../model/contact-model";
+import {Validation} from "../validation/validation";
+import {ContactValidation} from "../validation/contact-validation";
 import {Contact, User} from "@prisma/client";
-import {prismaClient} from "../application/database.js";
-import {logger} from "../application/logging.js";
-import {ResponseError} from "../error/response-error.js";
-import {Pageable} from "../model/page.js";
+import {prismaClient} from "../application/database";
+import {logger} from "../application/logging";
+import {ResponseError} from "../error/response-error";
+import {Pageable} from "../model/page";
 
 export class ContactService {
 

@@ -4,11 +4,11 @@ import {
     toUserResponse,
     UpdateUserRequest,
     UserResponse
-} from "../model/user-model.js";
-import {Validation} from "../validation/validation.js";
-import {UserValidation} from "../validation/user-validation.js";
-import {prismaClient} from "../application/database.js";
-import {ResponseError} from "../error/response-error.js";
+} from "../model/user-model";
+import {Validation} from "../validation/validation";
+import {UserValidation} from "../validation/user-validation";
+import {prismaClient} from "../application/database";
+import {ResponseError} from "../error/response-error";
 import bcrypt from "bcrypt";
 import {v4 as uuid} from "uuid";
 import {User} from "@prisma/client";

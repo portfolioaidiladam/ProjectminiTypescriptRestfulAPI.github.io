@@ -22,7 +22,7 @@ Accept: application/json
 ### Get User
 GET http://localhost:3000/api/users/current
 Accept: application/json
-X-API-TOKEN: 25edd380-731c-4d9f-ac9b-b49f01e205bd
+X-API-TOKEN: 73d554e8-4e49-4877-9262-8cf0ddea7488
 
 ### Logout User
 DELETE http://localhost:3000/api/users/current

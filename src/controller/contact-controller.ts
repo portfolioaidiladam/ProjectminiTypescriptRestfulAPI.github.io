@@ -1,8 +1,8 @@
-import {UserRequest} from "../type/user-request.js";
+import {UserRequest} from "../type/user-request";
 import {Response, NextFunction} from "express";
-import {CreateContactRequest, SearchContactRequest, UpdateContactRequest} from "../model/contact-model.js";
-import {ContactService} from "../service/contact-service.js";
-import {logger} from "../application/logging.js";
+import {CreateContactRequest, SearchContactRequest, UpdateContactRequest} from "../model/contact-model";
+import {ContactService} from "../service/contact-service";
+import {logger} from "../application/logging";
 
 export class ContactController {
 

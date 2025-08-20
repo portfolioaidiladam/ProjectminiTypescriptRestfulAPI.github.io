@@ -1,12 +1,12 @@
-import {UserRequest} from "../type/user-request.js";
+import {UserRequest} from "../type/user-request";
 import {Response, NextFunction} from "express";
 import {
     CreateAddressRequest,
     GetAddressRequest,
     RemoveAddressRequest,
     UpdateAddressRequest
-} from "../model/address-model.js";
-import {AddressService} from "../service/address-service.js";
+} from "../model/address-model";
+import {AddressService} from "../service/address-service";
 
 export class AddressController {
 
